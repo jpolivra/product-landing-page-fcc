@@ -1,25 +1,9 @@
 * {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 
-body {
-    width: 100%;
-}
-
-.container {
-    display: grid;
-    grid-template-columns: auto 1000px auto;
-    grid-template-rows: 130px 580px;
-    grid-template-areas: 
-        ". header ."
-        ". section#form-section ."
-    
-    
-    ;
-}
-
-header {
-    background-color: aqua;
+.header {
+    max-width: 1200;
 }

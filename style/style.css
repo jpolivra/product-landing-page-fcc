@@ -4,6 +4,15 @@
     box-sizing: border-box;
 }
 
-.header {
-    max-width: 1200;
+.container {
+    max-width: 960px;
+    display: flex;
+    margin: 0 auto;
 }
+
+.container::after, .container::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+

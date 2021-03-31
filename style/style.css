@@ -1,7 +1,31 @@
+/*Web site by Thxjao - github/thxjao */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+.nunito {
+    font-family: 'Nunito', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;500&display=swap');
+.slab {
+    font-family: 'Roboto Slab', serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+img {
+    display: block;
+    max-width: 100%;
 }
 
 .container {
@@ -10,9 +34,28 @@
     margin: 0 auto;
 }
 
-.container::after, .container::before {
-    content: '';
-    display: table;
-    clear: both;
+.col {
+    flex: 1;
 }
+
+.header {
+    justify-content: space-between;
+    padding: 30px 20px;
+    align-items: center;
+}
+
+.header ul li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.header ul li a {
+    font-weight: bold;
+    font-size: 1.25em;
+    color: black;
+}
+
+/* Main */
+
+
 

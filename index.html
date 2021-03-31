@@ -5,24 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    <header id="header container">
-        <a href=""><img src="" alt="Apple" id="header-img"></a>
+    <header id="header" class="header container">
+        <a href="#"><img src="./img/apple.svg" alt="Apple" id="header-img"></a>
         <nav id="nav-bar">
             <ul>
-                <li><a class="nav-link" href="">Obter</a></li>
-                <li><a class="nav-link" href="">Sobre</a></li>
-                <li><a class="nav-link" href="">Qualidade</a></li>
-                <li><a class="nav-link" href="">Serviços</a></li>
+                <li><a class="nav-link nunito" href="">Obter</a></li>
+                <li><a class="nav-link nunito" href="">Sobre</a></li>
+                <li><a class="nav-link nunito" href="">Qualidade</a></li>
+                <li><a class="nav-link nunito" href="">Serviços</a></li>
             </ul>
         </nav>
     </header>
-    <main>
-        <form action="https://www.freecodecamp.org/email-submit" id="form">
-            <input type="email" id="email" placeholder="Insira seu email">
-            <input type="submit" id="submit">
-        </form>
+    <main class="main container">
+        <div class="image-div col">
+            <h1>Gostaria de</h1>
+            <h3>adquirir o seu agora mesmo?</h3>
+            <img src="./img/main-image.png" alt="iPad">
+        </div>
+        <div class="form-div col">
+            <form action="https://www.freecodecamp.org/email-submit" id="form">
+                <input type="email" id="email" placeholder="Insira seu email">
+                <input type="submit" id="submit" class="main-btn" placeholder="Enviar">
+            </form>
+        </div>
     </main>
     <section class="sobre">
         <video src="" id="video"></video>

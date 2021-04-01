@@ -35,13 +35,17 @@ img {
     margin: 0 auto;
 }
 
+/*Column*/
+
 .col {
     flex: 1;
 }
 
+/* Header */
+
 .header {
     justify-content: space-between;
-    padding: 30px 20px;
+    padding: 30px 20px 40px 20px;
     align-items: center;
 }
 
@@ -58,11 +62,190 @@ img {
 
 /* Main */
 
+.main .form-div {
+    padding-right: 20px;
+}
+
 .main .form-div h1 {
     font-size: 68px;
     font-weight: 500;
     max-width: 488px;
+    letter-spacing: 6px;
 }
+
+.main .form-div h3 {
+    font-size: 44px;
+    font-weight: 300;
+    max-width: 488px;
+    letter-spacing: 1.1px;
+}
+
+.main .form-div form input.main-input {
+    display: block;
+    width: 438px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    background: #C4C4C4;
+    margin-top: 30px;
+}
+
+.main .form-div form input.main-input::placeholder {
+    color: #4B4B4B;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.main .form-div form input.main-btn {
+    width: 175px;
+    height: 60px;
+    border: none;
+    border-radius: 20px;
+    background-color: black;
+    margin-left: 131.5px;
+    margin-top: 20px;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+}
+
+.main .form-div form input.main-btn:hover {
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+/* About section */
+
+.sobre {
+    background: black;
+}
+
+.sobre div.container {
+    padding: 40px 20px;
+}
+
+.sobre-texto {
+    padding: 0 20px;
+}
+
+.sobre-texto h2 {
+    color: white;
+    font-size: 60px;
+}
+
+.sobre-texto p {
+    color: white;
+    font-size: 20px;
+}
+
+.sobre-video video {
+    margin-left: 20px;
+}
+
+.sobre-video {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.sobre-video button {
+    width: 440px;
+    margin-left: 20px;
+    margin-top: 20px;
+    height: 60px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 20px;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.sobre-video button:hover {
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+
+/* Qualidade */
+
+section.qualidade {
+    padding-top: 40px;
+}
+
+div.phone-image {
+    padding-right: 80px;
+}
+
+div.qualidade-lista {
+    padding-left: 10px;
+    padding-top: 100px;
+}
+
+div.qualidade-lista h2 {
+    font-size: 44px;
+    letter-spacing: 4.4px;
+}
+
+div.qualidade-lista h4 {
+    font-weight: normal;
+    font-size: 32px;
+    letter-spacing: 7.4px;
+    padding-bottom: 40px;
+}
+
+div.qualidade-lista ul {
+    text-align: center;
+}
+
+div.qualidade-lista ul li {
+    width: 320px;
+    height: 73px;
+    margin-bottom: 15px;
+    background-color: #424242;
+    border-radius: 20px;
+    font-family: 'Nunito', sans-serif;
+    color: white;
+    font-weight: 300;
+    font-size: 28px;
+    padding-top: 19px;
+}
+
+/* Footer */
+
+.footer {
+    background-color: black;
+}
+
+.footer div.container {
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 60px;
+    margin: 0 auto;
+}
+
+.footer div.container h2 {
+    color: white;
+    font-size: 60px;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.footer div.container h4 {
+    max-width: 530px;
+    font-size: 32px;
+    color: white;
+}
+
+.footer-image-container {
+    margin: 0 auto;
+}
+
+
+
+
 
 
 

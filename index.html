@@ -1,43 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./style/style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>iPad Landing Page by Thxjao</title>
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
     <header id="header" class="header container">
-        <a href="#"><img src="./img/apple.svg" alt="Apple" id="header-img"></a>
-        <nav id="nav-bar">
-            <ul>
-                <li><a class="nav-link nunito" href="">Obter</a></li>
-                <li><a class="nav-link nunito" href="">Sobre</a></li>
-                <li><a class="nav-link nunito" href="">Qualidade</a></li>
-                <li><a class="nav-link nunito" href="">Serviços</a></li>
-            </ul>
-        </nav>
+      <a href="#"><img src="./img/apple.svg" alt="Apple" id="header-img" /></a>
+      <nav id="nav-bar">
+        <ul>
+          <li><a class="nav-link nunito" href="">Obter</a></li>
+          <li><a class="nav-link nunito" href="">Sobre</a></li>
+          <li><a class="nav-link nunito" href="">Qualidade</a></li>
+          <li><a class="nav-link nunito" href="">Serviços</a></li>
+        </ul>
+      </nav>
     </header>
     <main class="main container">
-        <div class="image-div col">
-            <img src="./img/main-image.png" alt="iPad">
-        </div>
-        <div class="form-div col">
-            <h1 class="slab">Gostaria de</h1>
-            <h3>adquirir o seu agora mesmo?</h3>
-            <form action="https://www.freecodecamp.org/email-submit" id="form">
-                <input type="email" id="email" placeholder="Insira seu email">
-                <input type="submit" id="submit" class="main-btn" placeholder="Enviar">
-            </form>
-        </div>
+      <div class="image-div col">
+        <img src="./img/main-image.png" alt="iPad" />
+      </div>
+      <div class="form-div col">
+        <h1 class="slab">Gostaria de</h1>
+        <h3 class="slab">adquirir o seu agora mesmo?</h3>
+        <form action="https://www.freecodecamp.org/email-submit" id="form">
+          <input
+            type="email"
+            id="email"
+            placeholder="Insira seu email"
+            class="main-input"
+          />
+          <input
+            type="submit"
+            id="submit"
+            class="main-btn"
+            placeholder="Enviar"
+          />
+        </form>
+      </div>
     </main>
     <section class="sobre">
-        <video src="" id="video"></video>
+      <div class="container">
+        <div class="sobre-texto col">
+          <h2 class="nunito">Sobre</h2>
+          <p class="slab">
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia, looked up one of the more
+            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+            going through the cites of the word.
+          </p>
+        </div>
+        <div class="sobre-video col">
+          <video src="./video/applevideo.mp4" id="video" width="440px" controls></video>
+          <button>Saiba Mais</button>
+        </div>
+      </div>
     </section>
-    <section class="qualidade"></section>
-    <footer class="footer"></footer>
-</body>
+    <section class="qualidade container">
+        <div class="phone-image col">
+            <img src="./img/qualidade-image.png" alt="iPad Pro">
+        </div>
+        <div class="qualidade-lista col">
+            <h2 class="roboto">Qualidade</h2>
+            <h4 class="nunito">Naquilo que faz</h4>
+            <ul>
+                <li>Design</li>
+                <li>Durabilidade</li>
+                <li>Portabilidade</li>
+            </ul>
+        </div>
+    </section>
+    <footer class="footer">
+      <div class="container">
+        <h2 class="roboto">Serviços</h2>
+        <h4 class="roboto">Venha conferir a gama de serivços e apps disponíveis na nossa plataforma.</p>
+        <button>Conferir Apple Store</button>
+        <div class="footer-image-container">
+          <img src="./img/footer-image.png" alt="Aplicativos">
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>

@@ -24,6 +24,10 @@
     list-style: none;
 }
 
+body {
+    max-width: 100%;
+}
+
 img {
     display: block;
     max-width: 100%;
@@ -44,9 +48,8 @@ img {
 /* Header */
 
 .header {
+    padding: 20px 20px 20px 20px;
     justify-content: space-between;
-    padding: 30px 20px 40px 20px;
-    align-items: center;
 }
 
 .header ul li {
@@ -60,7 +63,14 @@ img {
     color: black;
 }
 
+/*Test*/
+
+
+
 /* Main */
+.main {
+    padding-top: 100px;
+}
 
 .main .form-div {
     padding-right: 20px;
@@ -113,6 +123,17 @@ img {
 .main .form-div form input.main-btn:hover {
     cursor: pointer;
     letter-spacing: 2px;
+}
+
+@media screen and (max-width: 960px) {
+    .main {
+        display: block;
+        max-width: 100%;
+    }
+
+    .main .image-div img {
+        
+    }
 }
 
 /* About section */
@@ -219,29 +240,57 @@ div.qualidade-lista ul li {
 }
 
 .footer div.container {
-    text-align: center;
     flex-direction: column;
     justify-content: center;
     padding-top: 60px;
-    margin: 0 auto;
+    text-align: center;
 }
 
-.footer div.container h2 {
+.footer div.container div.footer-texto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer div.container div.footer-texto h2 {
     color: white;
     font-size: 60px;
     text-transform: uppercase;
     padding-bottom: 40px;
 }
 
-.footer div.container h4 {
-    max-width: 530px;
-    font-size: 32px;
+.footer div.container div.footer-texto h4 {
+    text-align: center;
     color: white;
+    font-size: 30px;
+    max-width: 500px;
+    font-weight: normal;
+    padding-bottom: 40px;
 }
 
 .footer-image-container {
     margin: 0 auto;
 }
+
+.footer div.container button {
+    width: 400px;
+    height: 60px;
+    margin: 0 auto;
+    border-radius: 20px;
+    border: none;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: bold;
+}
+
+.footer div.container button:hover {
+    letter-spacing: 0.02em;
+    cursor: pointer;
+}
+
+/* By Thxjao */
+
 
 
 

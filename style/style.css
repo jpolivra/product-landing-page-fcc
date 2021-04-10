@@ -178,7 +178,8 @@ main div.main-form-div {
 	margin-top: 8vh;
 	padding-left: 20px; 
 	padding-right: 100px;
-	padding-top: 90px;
+	padding-top: 50px;
+	text-align: center;
 }
 
 main div.main-form-div h1 {
@@ -233,6 +234,9 @@ div.main-button-container {
 		flex-direction: column;
 		height: 100%;
 	}
+	main div.main-image-div {
+		padding: 20px;
+	}
 	main div.main-form-div {
 		padding: 0px 20px;
 		margin: 0px;
@@ -247,6 +251,18 @@ div.main-button-container {
 		margin-bottom: 40px;
 		margin-top: 20px;
 	}
+	main div.main-form-div h1 {
+		padding: 0 10px;
+	}
+}
+
+@media (max-width: 575.98px) {
+	main div.main-form-div h1.main-title {
+		font-size: 44px;
+	}
+	main div.main-form-div h3 {
+		font-size: 40px;
+	}
 }
 
 
@@ -254,6 +270,6 @@ div.main-button-container {
 /* Section about */
 
 section.about {
-	height: 100vh;
-	background-color: lightgreen;
+	height: 600px;
+	background-color: black;
 }

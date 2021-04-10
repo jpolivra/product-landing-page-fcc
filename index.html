@@ -19,35 +19,77 @@
   </head>
   <body>
     <header>
-    <nav class="container">
-      <div class="logo"><img src="./img/apple.svg" alt="Apple" /></div>
-      <ul>
-        <li><a href="#">Obter</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Qualidade</a></li>
-        <li><a href="#">Serviços </a></li>
-      </ul>
-      <input type="checkbox" id="check">
-      <label for="check" class="checkbtn">
-        <i class="fas fa-bars"></i>
-      </label>
-    </nav>
-    </header>   
+      <nav class="container">
+        <div class="logo"><img src="./img/apple.svg" alt="Apple" /></div>
+        <ul>
+          <li><a href="#">Obter</a></li>
+          <li><a href="#">Sobre</a></li>
+          <li><a href="#">Qualidade</a></li>
+          <li><a href="#">Serviços </a></li>
+        </ul>
+        <input type="checkbox" id="check" />
+        <label for="check" class="checkbtn">
+          <i class="fas fa-bars"></i>
+        </label>
+      </nav>
+    </header>
     <main class="container">
-        <div class="main-image-div">
-            <img src="./img/main-image.png" alt="">
+      <div class="main-image-div">
+        <img src="./img/main-image.png" alt="" />
+      </div>
+      <div class="main-form-div">
+        <h1 class="main-title">Gostaria de</h1>
+        <h3>adquirir o seu agora mesmo?</h3>
+        <input type="email" class="email" placeholder="Insira seu email" />
+        <div class="main-button-container">
+          <input type="button" class="main-btn" value="Enviar" />
         </div>
-        <div class="main-form-div">
-            <h1 class="main-title">Gostaria de</h1>
-            <h3>adquirir o seu agora mesmo?</h3>
-            <input type="email" class="email" placeholder="Insira seu email">
-            <div class="main-button-container">
-            <input type="button" class="main-btn" value="Enviar">
-            </div>
-        </div>
+      </div>
     </main>
     <section class="about">
-      
+      <div class="container">
+        <div class="texto-sobre">
+          <h2>Sobre</h2>
+          <p>
+            Contrary to popular belief, Lorem Ipsum is not simply random text.
+            It has roots in a piece of classical Latin literature from 45 BC,
+            making it over 2000 years old. Richard McClintock, a Latin professor
+            at Hampden-Sydney College in Virginia, looked up one of the more
+            obscure Latin words, consectetur, from a Lorem Ipsum passage, and
+            going through the cites of the word.
+          </p>
+        </div>
+        <div class="video">
+          <video autoplay muted loop id="myVideo">
+            <source src="./video/applevideo.mp4" type="video/mp4" />
+          </video>
+          <button>Saiba mais</button>
+        </div>
+      </div>
+    </section>
+    <section class="container" id="qualidade">
+      <div class="qualidade-img">
+        <img src="./img/qualidade-image.png" alt="">
+      </div>
+      <div class="texto">
+        <h2>Qualidade</h2>
+        <h4>Naquilo que faz</h4>
+        <ul>
+          <li><button>Design</button></li>
+          <li><button>Durabilidade</button></li>
+          <li><button>Portabilidade</button></li>
+        </ul>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="container">
+        <h2>Serviços</h2>
+        <h4>Venha conferir a gama de serivços e apps disponíveis na nossa plataforma.</h4>
+        <button>Conferir Apple Store</button>
+        <div class="footer-img">
+          <img src="./img/footer-image.png" alt="">
+        </div>
+      </div>
     </section>
   </body>
 </html>

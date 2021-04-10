@@ -62,6 +62,11 @@ img {
 	max-width: 100%;
 }
 
+button:hover, input[type=button]:hover {
+	cursor: pointer;
+	letter-spacing: 0.08em;
+}
+
 /* Starting coding */
 
 .container {
@@ -98,6 +103,10 @@ header {
 	display: none;
   }
 
+  body {
+	  overflow-x: hidden;
+  }
+
 
 /* nav*/
 
@@ -127,6 +136,10 @@ nav ul li a{
 	font-size: 1.25em;
 	font-family: var(--nunito);
 	font-weight: bold;
+}
+
+nav ul li a:hover{
+	letter-spacing: 0.08em;
 }
 
 @media (max-width: 1062px) {
@@ -222,6 +235,7 @@ main div.main-form-div div input.main-btn {
 	font-family: var(--slab);
 	font-size: 20px;
 	font-weight: 400;
+	margin-top: 10px;
 }
 
 div.main-button-container {
@@ -249,7 +263,7 @@ div.main-button-container {
 	}
 	main div.main-form-div div input.main-btn {
 		margin-bottom: 40px;
-		margin-top: 20px;
+		margin-top: 10px;
 	}
 	main div.main-form-div h1 {
 		padding: 0 10px;
@@ -270,6 +284,214 @@ div.main-button-container {
 /* Section about */
 
 section.about {
-	height: 600px;
+	height: 100%;
 	background-color: black;
 }
+
+section.about div.container {
+	padding: 60px 20px;
+}
+
+section.about div.container div.video {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 0 20px;
+}
+
+section.about div.container div.video video {
+	max-width: 560px;
+}
+
+section.about div.container div.texto-sobre {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	padding: 0 20px;
+	color: white;
+	justify-content: space-around;
+	align-items: flex-start;
+}
+
+section.about div.container div.texto-sobre h2 { 
+	font-size: 3.750em;
+	font-family: var(--nunito);
+	font-weight: 600;
+}
+
+section.about div.container div.texto-sobre p { 
+	font-size: 1.250em;
+	font-family: var(--slab);
+	font-weight: 400;
+	line-height: 1.5em;
+}
+
+section.about div.container div.video button {
+	font-family: var(--slab);
+	font-size: 1.250em;
+	font-weight: 500;
+	width: 100%;
+	height: 60px;
+	border: none;
+	border-radius: 20px;
+	margin-top: 40px;
+}
+
+@media (max-width: 991.98px) {
+	section.about div.container {
+		padding: 40px 20px;
+		flex-direction: column;
+	}
+	section.about div.container div.texto-sobre {
+		flex-direction: column;
+		padding: 0 20px;
+		color: white;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+	section.about div.container div.texto-sobre h2 {
+		padding-bottom: 20px;
+	}
+	section.about div.container div.texto-sobre p {
+		padding-bottom: 20px;
+	}
+	section.about div.container div.video button {
+		max-width: 560px;
+	}
+}
+
+/* Qualidade */
+section#qualidade {
+	max-height: 600px;
+}
+section#qualidade div.qualidade-img {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding-top: 20px;
+}
+section#qualidade div.qualidade-img img {
+	max-height: 100%;
+}
+section#qualidade div.texto {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	padding-top: 80px;
+}
+
+section#qualidade div.texto h2 {
+	font-family: var(--roboto);
+	font-size: 2.750em;
+	font-weight: bold;
+	letter-spacing: 4.4px;
+	line-height: 1.5em;
+}
+
+section#qualidade div.texto h4 {
+	font-family: var(--nunito);
+	font-size: 32px;
+	font-weight: 300;
+	letter-spacing: 6.2px;
+	line-height: 1.5em;
+	padding-bottom: 40px;
+}
+
+section#qualidade div.texto ul li {
+	margin-bottom: 20px;
+}
+
+section#qualidade div.texto ul li button {
+	font-size: 1.500em;
+	font-family: var(--roboto);
+	font-weight: 300;
+	color: white;
+	background-color:#424242;
+	border: none;
+	border-radius: 20px;
+	width: 322px;
+	height: 75px;
+}
+
+@media (max-width: 767.98px) {
+	section#qualidade {
+		max-height: 100%;
+		max-width: 100%;
+		flex-direction: column;
+	}
+	section#qualidade div.qualidade-img {
+		padding: 40px  20px 0 20px;
+	}
+	section#qualidade div.qualidade-img img {
+		max-height: 400px;
+	}
+	section#qualidade div.texto {
+		padding: 0px 20px 40px 20px;
+		align-items: center;
+	}
+}
+
+/* Footer */
+
+section.footer {
+	background-color: black;
+}
+
+section.footer div.container {
+	flex-direction: column;
+	padding: 40px 20px 0 20px;
+	align-items: center;
+	text-align: center;
+}
+
+section.footer div.container h2 {
+	font-family: var(--roboto);
+	text-transform: uppercase;
+	font-size: 3.750em;
+	line-height: 1.5em;
+	font-weight: bold;
+	color: white;
+}
+
+section.footer div.container h4 {
+	max-width: 560px;
+	font-family: var(--roboto);
+	font-weight: normal;
+	font-size: 2.000em;
+	color: white;
+	line-height: 1.5em;
+	margin-top: 10px;
+}
+
+section.footer div.container button {
+	width: 400px;
+	height: 60px;
+	background-color: white;
+	font-family: var(--slab);
+	font-size: 1.250em;
+	border: none;
+	border-radius: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 440px) {
+	section.footer div.container button {
+		max-width: 100%;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+

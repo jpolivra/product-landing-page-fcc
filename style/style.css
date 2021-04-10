@@ -361,6 +361,9 @@ section.about div.container div.video button {
 	section.about div.container div.video button {
 		max-width: 560px;
 	}
+	section.about div.container div.video video {
+		max-width: 100%;
+	}
 }
 
 /* Qualidade */

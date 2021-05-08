@@ -1,6 +1,11 @@
 # Página de produto - FreeCodeCamp
 Página criada para completar os desafios de certificação de Responsive Web Design da plataforma FreeCodeCamp.
 
+## Tecnologias usadas no projeto
+Até então eu só tinha conhecimentos de HTML5 e CSS3 que foram utilizados para a construção do esqueleto e responsividade do website, por conta disso ainda existem algumas falhas no Website que não foram corrigidos, como o botão hamburguer.
+
+## Imagens do Website
+
 ## User Stories:
 
 User Story #1: My product landing page should have a header element with a corresponding id="header".
@@ -32,8 +37,3 @@ User Story #13: The navbar should always be at the top of the viewport.
 User Story #14: My product landing page should have at least one media query.
 
 User Story #15: My product landing page should utilize CSS flexbox at least once.
-
-## Tecnologias usadas no projeto
-Até então eu só tinha conhecimentos de HTML5 e CSS3 que foram utilizados para a construção do esqueleto e responsividade do website, por conta disso ainda existem algumas falhas no Website que não foram corrigidos, como o botão hamburguer.
-
-## Imagens do Website
